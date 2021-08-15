@@ -1,0 +1,17 @@
+{
+  "name": "Uncover UI",
+  "action": {},
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Removes annoying overlay elements that hide UI elements in Gmail and Google Docs.",
+  "icons": {
+    "128": "uncover.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
